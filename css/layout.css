@@ -6,10 +6,11 @@
    c. About Section
    d. Education Section
    e. Work Section
-   f. Skills Section
-   g. Portfolio Section
-   h. Contact Section
-   i. Footer
+   f. Projects Section
+   g. Skills Section
+   h. Portfolio Section
+   i. Contact Section
+   j. Footer
 ===================================================================== */
 
 /* ------------------------------------------------------------------ */
@@ -240,7 +241,7 @@ ul#nav li.current a { color: #9A9791; }
 #education {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 10px;
    overflow: hidden;
 }
 
@@ -295,8 +296,8 @@ ul#nav li.current a { color: #9A9791; }
 
 #work {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   padding-top: 45px;
+   padding-bottom: 10px;
    overflow: hidden;
 }
 
@@ -346,7 +347,63 @@ ul#nav li.current a { color: #9A9791; }
 }
 
 /* ------------------------------------------------------------------ */
-/* f. Skills Section
+/* f. Projects Section
+/* ------------------------------------------------------------------ */
+
+#project {
+   background: #fff;
+   padding-top: 45px;
+   padding-bottom: 10px;
+   overflow: hidden;
+}
+
+#project a, #project a:visited  { color: #11ABB0; }
+#project a:hover, #project a:focus { color: #313131; }
+
+#project h1 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   padding-bottom: 6px;
+   text-align: center;
+}
+#project h1 span_1 {
+   border-bottom: 3px solid #EA8643;
+   padding-bottom: 6px;
+   text-align: center;
+}
+#project h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#project h5 {
+   font: 15px/18px 'opensans-bold', sans-serif;
+   color:#EA8643;
+}
+
+#project .header-col { padding-top: 9px; }
+#project .main-col { padding-right: 10%; }
+
+.education, .project {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#project .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#project .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#project .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* g. Skills Section
 /* ------------------------------------------------------------------ */
 
 #skills {
@@ -523,7 +580,7 @@ ul#nav li.current a { color: #9A9791; }
 }
 
 /* ------------------------------------------------------------------ */
-/* g. Portfolio Section
+/* h. Portfolio Section
 /* ------------------------------------------------------------------ */
 
 #portfolio {
@@ -693,7 +750,7 @@ ul#nav li.current a { color: #9A9791; }
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
+/* i. Contact Section
 /* ------------------------------------------------------------------ */
 
 #contact {
@@ -834,7 +891,7 @@ ul#nav li.current a { color: #9A9791; }
 
 
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* j. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
