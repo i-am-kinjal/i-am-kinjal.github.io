@@ -112,7 +112,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #EA8643; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -196,7 +196,7 @@ ul#nav li.current a { color: #9A9791; }
 
 #about a:hover { color: #2B2B2B; }
 
-#about a:focus { color: #11ABB0; }
+#about a:focus { color: #EA8643; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -245,7 +245,7 @@ ul#nav li.current a { color: #9A9791; }
    overflow: hidden;
 }
 
-#education a, #education a:visited  { color: #11ABB0; }
+#education a, #education a:visited  { color: #EA8643; }
 #education a:hover, #education a:focus { color: #313131; }
 
 #education h1 {
@@ -295,13 +295,13 @@ ul#nav li.current a { color: #9A9791; }
 /* ------------------------------------------------------------------ */
 
 #work {
-   background: #fff;
+   background: #ebeeee;
    padding-top: 45px;
    padding-bottom: 10px;
    overflow: hidden;
 }
 
-#work a, #work a:visited  { color: #11ABB0; }
+#work a, #work a:visited  { color: #EA8643; }
 #work a:hover, #work a:focus { color: #313131; }
 
 #work h1 {
@@ -319,6 +319,7 @@ ul#nav li.current a { color: #9A9791; }
 }
 
 #work h5 {
+   padding-top: 6px;
    font: 15px/18px 'opensans-bold', sans-serif;
    color:#EA8643;
 }
@@ -357,7 +358,7 @@ ul#nav li.current a { color: #9A9791; }
    overflow: hidden;
 }
 
-#project a, #project a:visited  { color: #11ABB0; }
+#project a, #project a:visited  { color: #EA8643; }
 #project a:hover, #project a:focus { color: #313131; }
 
 #project h1 {
@@ -370,10 +371,17 @@ ul#nav li.current a { color: #9A9791; }
    padding-bottom: 6px;
    text-align: center;
 }
+#project h2 {
+   padding-top: 20px;
+   font: 15px/10px 'opensans-italic', sans-serif;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 20px;
+   color: #313131;
+}
 #project h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
-
 #project h5 {
    font: 15px/18px 'opensans-bold', sans-serif;
    color:#EA8643;
@@ -413,7 +421,7 @@ ul#nav li.current a { color: #9A9791; }
    overflow: hidden;
 }
 
-#skills a, #skills a:visited  { color: #11ABB0; }
+#skills a, #skills a:visited  { color: #EA8643; }
 #skills a:hover, #skills a:focus { color: #313131; }
 
 #skills h1 {
@@ -582,6 +590,8 @@ ul#nav li.current a { color: #9A9791; }
 /* ------------------------------------------------------------------ */
 /* h. Portfolio Section
 /* ------------------------------------------------------------------ */
+#portfolio a, #portfolio a:visited  { color: #EA8643; }
+#portfolio a:hover, #portfolio a:focus { color: #313131; }
 
 #portfolio {
    background: #ebeeee;
@@ -592,8 +602,15 @@ ul#nav li.current a { color: #9A9791; }
    font: 20px/24px 'opensans-semibold', sans-serif;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 48px;
-   color: #EA8643;;
+   margin-bottom: 20px;
+   color: #EA8643;
+}
+#portfolio h2 {
+   font: 15px/10px 'opensans-italic', sans-serif;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 40px;
+   color: #313131;
 }
 
 /* Portfolio Content */
@@ -761,7 +778,7 @@ ul#nav li.current a { color: #9A9791; }
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #EA8643; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -826,7 +843,7 @@ ul#nav li.current a { color: #9A9791; }
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #EA8643;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -845,7 +862,7 @@ ul#nav li.current a { color: #9A9791; }
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #EA8643;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -857,7 +874,7 @@ ul#nav li.current a { color: #9A9791; }
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #EA8643; }
 
 #message-warning i,
 #message-success i {
